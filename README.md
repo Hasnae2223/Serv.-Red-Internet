@@ -4,15 +4,15 @@ Este repositorio incluye actividades llevadas a cabo en el módulo nombredelmód
 **TEMA 0. INTRODUCCIÓN**
 Ejercicio N | Breve descripción
 ---- | ----
-Ejercicio 1 | Breve descripción 0.1
-Ejercicio 2 | Breve descripción 0.2
+Ejercicio 01 | Breve descripción 0.1
+Ejercicio 02 | Breve descripción 0.2
 .... | ....
 
 
 **TEMA 1. Servidores web**
 Ejercicio N | Breve descripción
 ---- | ----
-Ejercicio 1 | Breve descripción 0.1
-Ejercicio 2 | Breve descripción 0.2
+Ejercicio 01 | Breve descripción 0.1
+Ejercicio 02 | Breve descripción 0.2
 .... | ....
 
