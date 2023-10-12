@@ -9,5 +9,10 @@ Primero abrimos el simbolo de sistema cmd y ejecutamos lo siguiente: python -m h
 
 ![ScreenShot2](/tema0/Screenshot_2.png)
 
+3- Ahora ejecutamos “localhost:8000” en el servidor web, la siguiente captura de pantalla nos muestra el resultado:
+
+![ScreenShot3](/tema0/Screenshot_3.png)
+
+
 
 
