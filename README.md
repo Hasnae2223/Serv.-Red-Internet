@@ -4,7 +4,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo nombredelmód
 **TEMA 0. INTRODUCCIÓN**
 Ejercicio N | Breve descripción
 ---- | ----
-[Ejercicio 01](tema0/ejercicio1.md) | Servidor web Python con módulo http.server
+[Ejercicio 01](tema0/ejercicio1.md) | Servidor web Python con módulo
 [Ejercicio 02](tema0/ejercicio2.md) | HTTP Server
 .... | ....
 
