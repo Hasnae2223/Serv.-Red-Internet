@@ -1,4 +1,4 @@
-En este script, creamos un script que añada un nombre de dominio y una ip al fichero host. (Hay que comprobar que no existe dicho dominio):
+En este script, creamos un script que añada un nombre de dominio y una ip al fichero host. (Hay que comprobar que no existe dicho dominio): 
 #!/bin/bash
 
 if [ $# -eq 2 ]; then
