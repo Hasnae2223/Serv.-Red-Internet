@@ -13,6 +13,12 @@ Los archivos de configuración de Bind se guardan de forma predeterminada en un 
 ![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/2e753ae7-0573-4d2d-8e07-f19b3142c3da)
 
 Para un servidor DNS de almacenamiento en caché, solo modificaremos el archivo. Lo abremos en el editor de texto con privilegios sudo:named.conf.options
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/567baa5c-ec81-436b-b08c-67da992e8147)
+
+Para configurar el almacenamiento en caché, el primer paso es configurar una lista de control de acceso o ACL:
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/bf893f61-c764-4906-83e6-b520b0b4e755)
+
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/4c4d5cd8-61e4-4c76-af14-c5b085abed98)
 
 
 
