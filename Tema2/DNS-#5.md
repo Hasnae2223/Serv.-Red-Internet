@@ -20,6 +20,16 @@ Para configurar el almacenamiento en caché, el primer paso es configurar una li
 
 ![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/4c4d5cd8-61e4-4c76-af14-c5b085abed98)
 
+Después, debemos establecer la directiva en "solo", ya que este servidor reenviará todas las solicitudes y no debe intentar resolver las solicitudes por sí solo.
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/def4ce2f-d219-4788-82dc-a874f414aab6)
+
+Para evitar los errores en el rigistro cambiamos dnssec-validation auto to yes: 
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/28e633df-97ab-443b-bbc3-56fc446e0f59)
+
+Probaremos la configuracion y reiniciaremos el enlace con el comando sudo named-checkconf, si existe algun error nos devuelve el error para corrigir si no se devolvera sin mostrar ningun resultado; 
+
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/7542e7b6-b8eb-4ec9-8ce3-d70614630e16)
+
 
 
 
