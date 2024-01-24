@@ -41,9 +41,30 @@ sudo journalctl -u bind9 -f
 
 Configurar el equipo cliente:
 sudo nano /etc/resolv.conf
+cambiamos las IPs:
 
-![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/57f36ace-f19b-4a4f-b24c-2f3ad3eb8d84)
-cambiamos
 ![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/3874d560-096c-4d8c-b440-ff978805620b)
 
+Ahora probaremos para asegurarse de que las consultas se pueden resolver correctamente mediante  el uso de algunas herramientas comunes:
+
 ![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/3f6dc46b-5594-4f4c-9b1b-6ccb7bde77d1)
+
+Esto significa que nuestro cliente puede conectarse utilizando nuestro servidor DNS.google.com
+
+Podemos obtener información más detallada mediante el uso de herramientas específicas de DNS como . Probamos dig linuxfondation.org
+
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/0f180e83-27d8-4fd4-9c21-f1ebd9378e16)
+
+Podemos modificar el fichero  de unidad systemd que inicia Bind9:
+sudo systemctl edit --full bind9
+
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/4856aed9-d39e-4a2b-97f1-810fec7b3033)
+reeniciamos para implimentar los cambios
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/82d29433-a808-4557-8809-db347fb4c7de)
+
+Hacer que la configuración de DNS del cliente sea permanente
+
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/7bdbe894-686f-4302-89d5-9ba4393dca33)
+Cambiaremos el DNS, guardamos cierramosel archivo. el cliente debe usar esa configuracion en el proximo arranque.
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/9fa930ce-5926-4076-80b2-f3f41251e551)
+
