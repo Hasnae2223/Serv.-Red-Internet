@@ -30,6 +30,20 @@ Probaremos la configuracion y reiniciaremos el enlace con el comando sudo named-
 
 ![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/7542e7b6-b8eb-4ec9-8ce3-d70614630e16)
 
+Habilite una excepción a la directiva de firewall para Enlazar escribiendo: con el comando sudo ufw allow Bind9:
 
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/e59f1d16-08be-47b1-8d0b-1313d9807b0a)
 
+Después, vigilaremos los registros del servidor mientras configuraremos la máquina cliente para asegurarse de que todo va bien:
+Ejecutaremos el comando siguiente:
+sudo journalctl -u bind9 -f
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/2f0d6d47-6d7c-49f2-818e-0cd87472ea50)
 
+Configurar el equipo cliente:
+sudo nano /etc/resolv.conf
+
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/57f36ace-f19b-4a4f-b24c-2f3ad3eb8d84)
+cambiamos
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/3874d560-096c-4d8c-b440-ff978805620b)
+
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/3f6dc46b-5594-4f4c-9b1b-6ccb7bde77d1)
