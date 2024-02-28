@@ -37,3 +37,15 @@ Reinicia el servicio ProFTPD para aplicar los cambios: sudo service proftpd rest
 
 6. Modifica el fichero de zona del DNS para que resuelva adecuadamente
 
+Para ello abrimos el archivo de zona 
+
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/8d37dc61-4258-4154-b926-7cf9f0e5a916)
+
+Agregamos una entrada para "informatica.marisma.local"
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/b2f0cbf7-6695-4bd8-b2b9-b66b651f83a1)
+
+Guarda y cierra el archivo.
+
+Reinicia el servidor DNS para aplicar los cambios. sudo service bind9 restart
+
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/3eb7690e-2810-4bea-b02f-85c6460a3c2e)
