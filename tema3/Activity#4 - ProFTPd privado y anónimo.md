@@ -7,16 +7,11 @@ Actividades:
 
 Para configurar ProFTPD para que los usuarios accedan al directorio /home/ftp, podemos hacer uso de la directiva DefaultChdir en el archivo de configuración. Aseguramos de tener los permisos adecuados en el directorio:
 
-![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/21b0d5d5-3e91-4774-b279-e76f1e7fe1f2)
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/b0512aa8-181d-45f9-bd5d-0401855fcc41)
 
-sudo nano /etc/proftpd/proftpd.conf
+Guardamos y reiniciar el servicio ProFTPD
 
-![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/8bef53ed-015b-4355-b50c-b34fe3c7a248)
-
-Permite escritura desde la red 10.6.0.x
-
-![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/71b49143-5198-4d59-b425-851acb361aa3)
-
+sudo service proftpd restart
 
   2. No se permitirá subir ni eliminar nada de la carpeta ftp
      
