@@ -19,7 +19,21 @@ Actividades:
 
 4. Haz los cambios necesarios en el fichero de configuración de proftpd
 
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/b2b52c9e-4cc2-4fd1-833a-f2a9a01a6258)
+
+Guarda y cierra el archivo de configuración.
+
+Reinicia el servicio ProFTPD para aplicar los cambios: sudo service proftpd restart
 
 5. Crea un sitio virtual para “informatica.marisma.local”
+
+sudo nano /etc/proftpd/proftpd.conf
+
+![image](https://github.com/hasna2223/Serv.-Red-Internet/assets/119622209/45d09a97-60d7-48ee-8914-76d35266034e)
+
+Guarda y cierra el archivo de configuración. 
+
+Reinicia el servicio ProFTPD para aplicar los cambios: sudo service proftpd restart
+
 6. Modifica el fichero de zona del DNS para que resuelva adecuadamente
 
